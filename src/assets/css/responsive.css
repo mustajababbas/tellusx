@@ -1,0 +1,159 @@
+@media (max-width: 480px) {
+
+    .content{
+
+        width: 100% !important;
+        border-radius: 0;
+    
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+    .order-xs-1{
+
+        order: 1;
+        
+        }
+        
+        .order-xs-2{
+        
+        order: 2;
+            
+        }
+        
+        .order-xs-3{
+        
+            order: 3;
+                
+        }
+
+        .footer-mid,.footer-left{
+
+            margin-bottom: 4rem;
+        
+        }
+
+        .content{
+
+            width: 50%;
+        
+        }
+        
+        
+.story{
+
+    height: auto;
+    display: block;
+    padding: 0;
+
+}
+
+.story-row{
+
+    width: 100%;
+
+}
+
+.story-box{
+
+    height: 100%;
+    padding-top: 3rem;
+
+}
+
+.story-box img{
+
+bottom: 0;
+right: 0;
+
+}
+
+.main-title{
+
+    font-size: 3rem;
+
+}
+
+
+.roadmap-meta{
+
+flex-direction: column;
+
+}
+
+.roadmap-meta .roadmap-img,.roadmap-meta .roadmap-center{
+
+    display: none;
+
+}
+
+.roadmap-meta .roadmap-data{
+
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.bigbox{
+
+    height: 100%;
+
+}
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+.order-xs-1{
+
+order: 1;
+
+}
+
+.order-xs-2{
+
+order: 2;
+    
+}
+
+.order-xs-3{
+
+    order: 3;
+        
+}
+
+.footer-mid,.footer-left{
+
+    margin-bottom: 4rem;
+
+}
+
+.footer-mid{
+
+    text-align: start;
+}
+
+.content{
+
+    width: 50%;
+
+}
+
+
+
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+
+
+
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+
+
+}
