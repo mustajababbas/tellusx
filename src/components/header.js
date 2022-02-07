@@ -16,11 +16,11 @@ function Header(){
 
                 <Nav className="">
                 
-                <Nav.Link href="#facebook"><i class="fa-brands fa-instagram"></i></Nav.Link>
-                <Nav.Link href="#facebook"><i class="fa-brands fa-twitter"></i></Nav.Link>
-                <Nav.Link href="#facebook"><i class="fa-brands fa-facebook"></i></Nav.Link>
-                <Nav.Link href="#facebook"><i class="fa-brands fa-discord"></i></Nav.Link>
-                <Nav.Link href="#facebook"><i class="fa-solid fa-globe"></i></Nav.Link>
+                <Nav.Link href="https://www.instagram.com/tellusxgang/" target="_blank"><i class="fa-brands fa-instagram"></i></Nav.Link>
+                <Nav.Link href="https://twitter.com/TellusXGang" target="_blank"><i class="fa-brands fa-twitter"></i></Nav.Link>
+                <Nav.Link href="https://m.facebook.com/tellusxgang/?_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></Nav.Link>
+                <Nav.Link href="https://discord.com/invite/uXHFPwyeFN" target="_blank"><i class="fa-brands fa-discord"></i></Nav.Link>
+                
                
                 </Nav>
            

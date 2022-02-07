@@ -36,11 +36,11 @@ function Footer(){
                                 <h4>Follow Us</h4>
 
                                 <ul className="footer-social">
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
-                                    <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li><a href="https://www.instagram.com/tellusxgang/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/TellusXGang" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://m.facebook.com/tellusxgang/?_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="https://discord.com/invite/uXHFPwyeFN" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+                                   
                                 </ul>
 
                                 <h4 className="mt-4">Contact Us</h4>
