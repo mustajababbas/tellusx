@@ -285,6 +285,12 @@ font-size: 20px;
 
 }
 
+.contact-us li{
+
+  margin: 10px 0;
+
+}
+
 .contact-us a{
 
  
@@ -298,6 +304,12 @@ font-size: 20px;
  
   color: var(--white);
   
+
+}
+
+.contact-us li i{
+
+  margin-right: 5px;
 
 }
 

@@ -1,7 +1,7 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import earth from "../assets/images/earth.gif";
-import earthrotate from "../assets/images/earth-rotate.mp4"
+import mainvideo from "../assets/images/Final.mp4"
 import { Link } from "react-router-dom";
 
 
@@ -26,7 +26,7 @@ function Home(){
                     <div className="video-wrapper">
                         <div className="video-container">
                             <video autoPlay muted loop>
-                            <source src={earthrotate} type="video/mp4"/>
+                            <source src={mainvideo} type="video/mp4"/>
 
                             </video>
                         </div>

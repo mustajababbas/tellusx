@@ -46,7 +46,9 @@ function Footer(){
                                 <h4 className="mt-4">Contact Us</h4>
 
                                 <ul className="contact-us">
-                                    <li><a href="mailto:Example@gmail.com"><i class="fa-solid fa-envelope"></i> Example@gmail.com</a></li>
+                                    <li><a href="mailto:connect@tellusx.io"><i class="fa-solid fa-envelope"></i> connect@tellusx.io</a></li>
+                                    <li><a href="mailto:ceo@tellusx.io"><i class="fa-solid fa-envelope"></i> ceo@tellusx.io</a></li>
+                                    <li><a href="mailto:marketing@tellusx.io"><i class="fa-solid fa-envelope"></i> marketing@tellusx.io</a></li>
                                 </ul>
 
                             </div>
