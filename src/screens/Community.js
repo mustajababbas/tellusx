@@ -1,5 +1,10 @@
-
-import discoball from "..//assets/images/Disco-Ball-01.png"
+import Nft1 from "../assets/images/NFT1.jpeg"
+import Nft2 from "../assets/images/NFT2.jpeg"
+import Nft3 from "../assets/images/NFT3.jpeg"
+import Nft4 from "../assets/images/NFT4.jpeg"
+import Nft5 from "../assets/images/NFT5.jpeg"
+import Nft6 from "../assets/images/NFT6.jpeg"
+import Nft7 from "../assets/images/NFT7.jpeg"
 import { Container,Row,Col } from "react-bootstrap";
 
 function Communtiy(){
@@ -9,20 +14,23 @@ function Communtiy(){
         <>
         
  
+    <div id="community">
 
-        <Container id="community">
+        <Container >
 
             
-
-            <h1 className="main-title">Community</h1>
+            <div className="main-title">
+                <h1>Community</h1>
+            </div>
+           
 
             <Row className="justify-content-center mb-5">
 
-                <Col lg={6}>
+                <Col lg={4}>
 
                     <div className="team-members">
 
-                        <img src={discoball}/>
+                        <img src={Nft1}/>
 
 
                         <h3 className="my-3">DIGIMENTAL</h3>
@@ -59,15 +67,15 @@ function Communtiy(){
 
         </Container>
 
-        <Container fluid className="pb-5 mt-5">
+        <Container className="pb-5 mt-5">
 
-            <Row className="justify-content-center">
+            <Row className="justify-content-center gy-5">
 
-                <Col lg={2}>
+                <Col lg={4}>
 
                     <div className="team-members">
 
-                        <img src={discoball}/>
+                        <img src={Nft2}/>
 
 
                         <h3 className="my-3">DIGIMENTAL</h3>
@@ -91,11 +99,11 @@ function Communtiy(){
 
                 </Col>
 
-                <Col lg={2}>
+                <Col lg={4}>
 
                     <div className="team-members">
 
-                        <img src={discoball}/>
+                        <img src={Nft3}/>
 
 
                         <h3 className="my-3">DIGIMENTAL</h3>
@@ -117,11 +125,11 @@ function Communtiy(){
 
                 </Col>
 
-                <Col lg={2}>
+                <Col lg={4}>
 
                     <div className="team-members">
 
-                        <img src={discoball}/>
+                        <img src={Nft4}/>
 
 
                         <h3 className="my-3">DIGIMENTAL</h3>
@@ -143,11 +151,11 @@ function Communtiy(){
 
                 </Col>
 
-                <Col lg={2}>
+                <Col lg={4}>
 
                     <div className="team-members">
 
-                        <img src={discoball}/>
+                        <img src={Nft5}/>
 
 
                         <h3 className="my-3">DIGIMENTAL</h3>
@@ -169,11 +177,11 @@ function Communtiy(){
 
                 </Col>
 
-                <Col lg={2}>
+                <Col lg={4}>
 
                     <div className="team-members">
 
-                        <img src={discoball}/>
+                        <img src={Nft6}/>
 
 
                         <h3 className="my-3">DIGIMENTAL</h3>
@@ -195,11 +203,11 @@ function Communtiy(){
 
                 </Col>
 
-                <Col lg={2}>
+                <Col lg={4}>
 
                     <div className="team-members">
 
-                        <img src={discoball}/>
+                        <img src={Nft7}/>
 
 
                         <h3 className="my-3">DIGIMENTAL</h3>
@@ -225,7 +233,7 @@ function Communtiy(){
 
             </Row>
         </Container>
-
+        </div>
   
 
         </>

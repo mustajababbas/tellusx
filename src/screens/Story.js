@@ -1,6 +1,6 @@
 
 import story1 from "../assets/images/tx-logo.png"
-import storylarge from "../assets/images/beans.png"
+import storylarge from "../assets/images/NFT6.png"
 import { Container } from "react-bootstrap";
 import { useState } from "react";
 
@@ -16,17 +16,39 @@ function Story(){
 
         <Container fluid id="story">
 
-            <h1 className="main-title">Our Story</h1>
+            <div className="main-title">
+                <h1>Our Story</h1>
+            </div>
+            
 
             <div className="story">
 
-                <div className="story-row">
+            <div className="story-row">
+
+                <div className="story-box h-100" onClick={(e)=>setStatus(true)}>
+                    
+
+                    <h2>01</h2>
+                    <h5>Vision & Values</h5>
+                    <p>lorem sadas das qwie qwehuashdahshsdhsahdh ashdhashd</p>
+
+                    <img src={story1}/>
+
+                    
+
+                </div>
+
+
+            </div>
+
+            <div className="story-row">
 
                     <div className="story-box box-60" onClick={(e)=>setStatus(true)}>
                         
 
-                        <h2>01</h2>
-                        <h5>Vision & Values <i class="fa-solid fa-arrow-right"></i></h5>
+                        <h2>02</h2>
+                        <h5>Vision & Values</h5>
+                        <p>lorem sadas das qwie qwehuashdahshsdhsahdh ashdhashd</p>
 
                         <img src={story1}/>
 
@@ -37,74 +59,72 @@ function Story(){
                     <div className="story-box box-40" onClick={(e)=>setStatus(true)}>
                         
 
-                        <h2>02</h2>
-                        <h5>Vision & Values <i class="fa-solid fa-arrow-right"></i></h5>
-
-                        <img src={story1}/>
-
-                    </div>
-                </div>
-
-                <div className="story-row">
-
-                    <div className="story-box box-40">
-                        
-
                         <h2>03</h2>
-                        <h5>Vision & Values <i class="fa-solid fa-arrow-right"></i></h5>
+                        <h5>Vision & Values</h5>
+                        <p>lorem sadas das qwie qwehuashdahshsdhsahdh ashdhashd</p>
 
                         <img src={story1}/>
 
                     </div>
+            </div>
 
-                    <div className="story-box box-60">
+            <div className="story-row">
+
+                    <div className="story-box box-40" onClick={(e)=>setStatus(true)}>
                         
 
                         <h2>04</h2>
-                        <h5>Vision & Values <i class="fa-solid fa-arrow-right"></i></h5>
+                        <h5>Vision & Values</h5>
+                        <p>lorem sadas das qwie qwehuashdahshsdhsahdh ashdhashd</p>
 
                         <img src={story1}/>
 
                     </div>
-                </div>
 
-                <div className="story-row story-boxfull">
-
-                   <div className="d-flex box-60">
-
-                   <div className="story-box">
+                    <div className="story-box box-60" onClick={(e)=>setStatus(true)}>
                         
 
                         <h2>05</h2>
-                        <h5>Vision & Values <i class="fa-solid fa-arrow-right"></i></h5>
+                        <h5>Vision & Values </h5>
+                        <p>lorem sadas das qwie qwehuashdahshsdhsahdh ashdhashd</p>
 
                         <img src={story1}/>
 
                     </div>
 
-                    <div className="story-box">
+
+
+            </div>
+
+            <div className="story-row">
+
+                    <div className="story-box box-60" onClick={(e)=>setStatus(true)}>
                         
 
                         <h2>06</h2>
-                        <h5>Vision & Values <i class="fa-solid fa-arrow-right"></i></h5>
+                        <h5>Vision & Values </h5>
+                        <p>lorem sadas das qwie qwehuashdahshsdhsahdh ashdhashd</p>
 
                         <img src={story1}/>
 
+                        
+
                     </div>
 
-                   </div>
-
-                   <div className="story-box box-40">
+                    <div className="story-box box-40" onClick={(e)=>setStatus(true)}>
                         
 
                         <h2>07</h2>
-                        <h5>Vision & Values <i class="fa-solid fa-arrow-right"></i></h5>
+                        <h5>Vision & Values </h5>
+                        <p>lorem sadas das qwie qwehuashdahshsdhsahdh ashdhashd</p>
 
                         <img src={story1}/>
 
                     </div>
+            </div>
 
-                </div>
+              
+
 
                 <div className={status == false ? "box-hide" : "bigbox bigbox1"} >
 
@@ -147,6 +167,11 @@ function Story(){
                     <img src={storylarge} className="box-image-large"/>
 
                 </div>
+
+               
+               
+
+                
 
                
 

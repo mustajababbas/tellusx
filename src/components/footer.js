@@ -1,8 +1,30 @@
 
 import {Container,Row,Col} from "react-bootstrap";
 import Logo from "../assets/images/tx-logo.png"
+import { useState,useEffect } from "react";
 
 function Footer(){
+
+         // The back-to-top button is hidden at the beginning
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 500) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
+  // This function will scroll the window to the top 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // for smoothly scrolling
+    });
+  };
 
     return(
 
@@ -10,13 +32,23 @@ function Footer(){
         
             <footer>
 
+
+                {showButton && (
+                <div className="to-top">
+                    <button onClick={scrollToTop}>
+                        <i class="fa-solid fa-arrow-up-long"></i>
+                        <span>To Top</span>
+                    </button>
+                </div>
+                )}
+
                 <Container>
                     
                     <Row>
                         <Col lg={4} md={6} className="order-xs-2">
                             <div className="footer-left">
                                 <h2>Curious?</h2>
-                                <h3>We will try our best to reply but can't promise</h3>
+                                <h3>Connect with us</h3>
                             </div>
                         </Col>
 
@@ -47,8 +79,6 @@ function Footer(){
 
                                 <ul className="contact-us">
                                     <li><a href="mailto:connect@tellusx.io"><i class="fa-solid fa-envelope"></i> connect@tellusx.io</a></li>
-                                    <li><a href="mailto:ceo@tellusx.io"><i class="fa-solid fa-envelope"></i> ceo@tellusx.io</a></li>
-                                    <li><a href="mailto:marketing@tellusx.io"><i class="fa-solid fa-envelope"></i> marketing@tellusx.io</a></li>
                                 </ul>
 
                             </div>

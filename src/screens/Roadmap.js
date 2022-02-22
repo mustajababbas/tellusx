@@ -1,5 +1,11 @@
-import roadmapimg from "../assets/images/CHRIS-BROWN-BODY.jpg"
-import discoball from "..//assets/images/Disco-Ball-01.png"
+
+import Nft1 from "../assets/images/NFT1.jpeg"
+import Nft2 from "../assets/images/NFT2.jpeg"
+import Nft3 from "../assets/images/NFT3.jpeg"
+import Nft4 from "../assets/images/NFT4.jpeg"
+import Nft5 from "../assets/images/NFT5.jpeg"
+import Nft6 from "../assets/images/NFT6.jpeg"
+import txlogo from "..//assets/images/tx-logo.png"
 import { Container } from "react-bootstrap";
 
 function Roadmap(){
@@ -14,21 +20,24 @@ function Roadmap(){
 
             <div className="roadmap">
 
-            <h1 className="main-title">Roadmap</h1>
+            <div className="main-title">
+                <h1>Roadmap</h1>
+            </div>
 
                 <div className="roadmap-meta">
 
-                    <div className="roadmap-img">
+                    {/* <div className="roadmap-img">
 
-                        <img src={roadmapimg}/>
+                        <img src={Nft1}/>
 
-                    </div>
+                    </div> */}
 
                     
                     <div className="roadmap-center">
 
-                        <img src={discoball}/>
-
+                        {/* <img src={txlogo}/> */}
+                        <div class="shape"></div>
+                        
                     </div>
 
                     
@@ -46,23 +55,25 @@ function Roadmap(){
                 </div>
 
 
-                <div className="roadmap-meta ">
+                <div className="roadmap-meta">
 
-                    <div className="roadmap-img order-3">
+                    {/* <div className="roadmap-img order-3">
 
-                        <img src={roadmapimg}/>
+                        <img src={Nft2}/>
+
+                    </div> */}
+
+
+                    <div className="roadmap-center">
+
+                        <div className="phases">
+                            <p>Phase 2</p>
+                        </div>
 
                     </div>
 
 
-                    <div className="roadmap-center order-2">
-
-                        <img src={discoball}/>
-
-                    </div>
-
-
-                    <div className="roadmap-data order-1">
+                    <div className="roadmap-data ">
 
                         <div className="roadmap-box">
 
@@ -76,17 +87,19 @@ function Roadmap(){
                 </div>
 
                 <div className="roadmap-meta">
-
+{/* 
                     <div className="roadmap-img">
 
-                        <img src={roadmapimg}/>
+                        <img src={Nft3}/>
 
-                    </div>
+                    </div> */}
 
                     
                     <div className="roadmap-center">
 
-                        <img src={discoball}/>
+                    <div className="phases">
+                            <p>Phase 3</p>
+                        </div>
 
                     </div>
 
@@ -106,21 +119,23 @@ function Roadmap(){
 
                 <div className="roadmap-meta ">
 
-                    <div className="roadmap-img order-3">
+                    {/* <div className="roadmap-img order-3">
 
-                        <img src={roadmapimg}/>
+                        <img src={Nft4}/>
+
+                    </div> */}
+
+
+                    <div className="roadmap-center">
+
+                    <div className="phases">
+                            <p>Phase 4</p>
+                        </div>
 
                     </div>
 
 
-                    <div className="roadmap-center order-2">
-
-                        <img src={discoball}/>
-
-                    </div>
-
-
-                    <div className="roadmap-data order-1">
+                    <div className="roadmap-data">
 
                         <div className="roadmap-box">
 
