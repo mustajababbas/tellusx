@@ -36,7 +36,7 @@ function Home(){
 
                     <div className="content">
 
-                        <h2>Welcome To TellusX Club</h2>
+                        <h2>Welcome to TellusX</h2>
                         <div className="content-meta">
                             <img src={earth} />
                             <a href="https://discord.com/invite/uXHFPwyeFN" target="_blank" className="custom-btn secondary-btn w-100">Enter</a>
@@ -57,7 +57,7 @@ function Home(){
 
                     <Col lg={6}>
 
-                        <h4 className="mb-4">Welcome to the TellusX Gang </h4>
+                        <h4 className="mb-4">Welcome to TellusX</h4>
 
                         <p>
                         The Tx. Gang is a tri-serial 3D collection of digital assets found on the Ethereum Blockchain. Inception is the first series of the project, followed by Mutation & Liberation. 

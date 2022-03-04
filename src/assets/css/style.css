@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{
 
 .custom-nav{
 
-  background-color: var(--black);
+  background-color: transparent;
   position: absolute !important;
   z-index: 1;
   width: 100%;
@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6{
 
 .custom-nav a{
 
- color: var(--white) !important;
+  color: var(--black) !important;
   font-size: 20px;
 }
 
@@ -234,7 +234,7 @@ footer{
 .footer-left h2{
   
   font-weight: 700;
-  font-size: 70px;
+  font-size: 40px
 
 }
 
@@ -262,6 +262,7 @@ footer{
   list-style: none;
   padding: 0;
   display: flex;
+  justify-content: flex-end;
 
 }
 
@@ -924,5 +925,6 @@ font-size: 20px;
  .faq-list .accordion-body{
 
     font-size: 20px;
+    font-family: pixelfont;
 
  }
