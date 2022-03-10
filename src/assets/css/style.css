@@ -19,6 +19,10 @@
 
 }
 
+@font-face {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
 body{
 
   background: var(--black) !important;
@@ -35,7 +39,7 @@ p{
 
   margin: 0;
   color: var(--white);
-  font-family: pixelfont;
+  font-family: Fira Sans Condensed;
 
 }
 
@@ -82,7 +86,7 @@ h1,h2,h3,h4,h5,h6{
 
 .custom-nav a{
 
-  color: var(--black) !important;
+  color: var(--white) !important;
   font-size: 20px;
 }
 
@@ -925,6 +929,5 @@ font-size: 20px;
  .faq-list .accordion-body{
 
     font-size: 20px;
-    font-family: pixelfont;
 
  }

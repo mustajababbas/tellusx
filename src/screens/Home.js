@@ -59,7 +59,7 @@ function Home(){
 
                         <h4 className="mb-4">Welcome to TellusX</h4>
 
-                        <p>
+                        <p style={{fontSize:"20px"}}>
                         The Tx. Gang is a tri-serial 3D collection of digital assets found on the Ethereum Blockchain. Inception is the first series of the project, followed by Mutation & Liberation. 
                             <br/> <br/>
                         The Inception series is a collection of 8000 unique Tx. Tyga teen NFTs built for the metaverse. Not only are our Tygas 
@@ -80,7 +80,7 @@ function Home(){
 
                     <h4 className="mb-4">How is Tx. Gang special than the rest of the NFT projects? </h4>
                         
-                    <p>
+                    <p style={{fontSize:"20px"}}>
                         Tx. Gang is a community built by less-established individuals who’re experts in their domains & carry years of experience 
                         under their belt. We believe in putting more efforts on our product & refining quality. And for the same reason we started 
                         our campaign by including only organic audience that came via referrals & friends of friends, as opposed to a full-blown 
