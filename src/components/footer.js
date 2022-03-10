@@ -47,8 +47,8 @@ function Footer(){
                     <Row>
                         <Col lg={4} md={6} className="order-xs-2">
                             <div className="footer-left">
-                                <h2>Are you a part of the gang yet?</h2>
-                                <h3>Connect with us</h3>
+                                <h2>Curious?</h2>
+                                <h3>Are you a part of the gang yet?</h3>
                             </div>
                         </Col>
 
@@ -61,7 +61,7 @@ function Footer(){
                             </div>
                         </Col>
 
-                        <Col lg={4} md={6} className="order-xs-3 text-end">
+                        <Col lg={4} md={12} className="order-xs-3 footer-last">
 
                             <div className="footer-right">
 

@@ -34,8 +34,21 @@
         .footer-mid,.footer-left{
 
             margin-bottom: 4rem;
+            text-align: center;
         
         }
+
+        .footer-last{
+
+            text-align: center;
+          
+          }
+          
+          .footer-social{
+        
+            justify-content: center;
+        
+          }
 
         .content{
 
@@ -78,6 +91,15 @@ right: 0;
 
 }
 
+.main-title h2 {
+
+    font-size: 2rem;
+    letter-spacing: 0;
+    display:block ;
+
+
+}
+
 
 .roadmap-meta{
 
@@ -103,6 +125,8 @@ flex-direction: column;
     height: 100%;
 
 }
+
+
 
 }
 
@@ -136,6 +160,18 @@ order: 2;
 
     text-align: start;
 }
+
+.footer-last{
+
+    text-align: center;
+  
+  }
+  
+  .footer-social{
+
+    justify-content: center;
+
+  }
 
 .content{
 

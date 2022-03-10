@@ -101,19 +101,16 @@ function Home(){
 
                             <br/> <br/>
 
-                        For more information about the project, please check our #announcements. For any queries, please use the #generalchat 
-                        space or the #support channel.
-
-                            <br/> <br/>
-
-                        Now since you’ve made it till here, please get yourself verified, quickly go over our rules section & jump in to 
-                        this new world. We call it TellusX. 
-
                         </p>
 
                     </Col>
 
                 </Row>
+
+                
+                <div className="text-center my-5">
+                    <a href="https://discord.com/invite/uXHFPwyeFN" target="_blank" className="custom-btn primary-btn">Join Us on Discord</a>
+                </div>
 
                 <div className="main-title">
                     <h2>Commonly Asked Questions! </h2>
